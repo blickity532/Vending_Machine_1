@@ -53,12 +53,17 @@ class VendingMachine
                 break;
             case 4:
                 Console.WriteLine("Vending Water...");
-                break;
             case 5:
                 Console.WriteLine("Thank you for using the Free Vending Machine. Goodbye!");
                 break;
+            case 6:
+                Console.Writeline.("Mountain Dew"); 
+                break;
+            case 7:
+                Console.Writeline.("Twizzlers");
+                
             default:
-                Console.WriteLine("Invalid selection. Please try again.");
+            case 8:   Console.WriteLine("Invalid selection. Please try again.");
                 break;
         }
     }
